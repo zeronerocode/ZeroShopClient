@@ -1,0 +1,105 @@
+@font-face {
+    font-family: metropolis;
+    src: url(../font/metropolis/Metropolis-Regular.otf);
+  }
+  html {
+      font-family: metropolis;
+  }
+
+  .navbar {
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+  }
+  
+  .navbar-brand{
+      font-family: metropolis;
+      font-weight: 700;
+      color: #DB3022;
+      vertical-align: middle;
+  }
+  
+  .navbar-brand img {
+      width: 31;
+      height: 44;
+  }
+  
+  .form-inline input {
+      border: 1px solid #8E8E93;
+      border-radius: 20px;
+      width: 507;
+  
+  }
+  
+  .form-inline button {
+      margin-left: -50px;
+      background-color: transparent;
+  }
+  
+  .collapse > button {
+      height: 15;
+      width: 16;
+      background: #FFFFFF;
+      border: 1px solid #8E8E93;
+      border-radius: 12px;
+  }
+  
+  .button-group  button{
+      margin-left: 10px;
+  }
+  
+  .button-group .btn {
+      background-color: white;
+  }
+
+.sidebar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 105px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+main {
+    background-color: #F5F5F5;
+}
+
+.prf {
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: white;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.form label {
+    color: #9B9B9B;
+    text-align: end;
+}
+
+.btn-save {
+    background: #DB3022;
+    color: white;
+    border-radius: 25px;
+    width: 100px;
+    margin-left: 170px;
+}
+
+.form-check-label {
+    margin-right: 50px;
+}
+
+.prfl img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.prfl button {
+    border: 1px solid #9B9B9B;
+    border-radius: 24px;
+    background: #FFFFFF;
+    color: #9B9B9B;
+    width: 140px;
+    margin-top: 20px;
+}

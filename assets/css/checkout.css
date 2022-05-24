@@ -1,0 +1,91 @@
+@font-face {
+    font-family: metropolis;
+    src: url(../font/metropolis/Metropolis-Regular.otf);
+  }
+  html {
+      font-family: metropolis;
+  }
+
+  .navbar {
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+  }
+  
+  .navbar-brand{
+      font-family: metropolis;
+      font-weight: 700;
+      color: #DB3022;
+      vertical-align: middle;
+  }
+  
+  .navbar-brand img {
+      width: 31;
+      height: 44;
+  }
+  
+  .form-inline input {
+      border: 1px solid #8E8E93;
+      border-radius: 20px;
+      width: 507;
+  
+  }
+  
+  .form-inline button {
+      margin-left: -50px;
+      background-color: transparent;
+  }
+  
+  .collapse > button {
+      height: 15;
+      width: 16;
+      background: #FFFFFF;
+      border: 1px solid #8E8E93;
+      border-radius: 12px;
+  }
+  
+  .button-group  button{
+      margin-left: 10px;
+  }
+  
+  .button-group .btn {
+      background-color: white;
+  }
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: metropolis;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.summary {
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    padding: 24px;
+    border-radius: 4px;
+    height: 256px;
+}
+
+.address {
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 14px;
+}
+
+.shop-item {
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 14px;
+}
+
+.shop-item img {
+    width: 103px;
+    height: 69px;
+    border-radius: 8px;
+}
+
+.summary button {
+    border-radius: 25px;
+    background: #DB3022;
+}

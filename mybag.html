@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bag</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/mybag.css">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo.png" alt="">
+                ZeroShop
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+              </form>
+              <button class="btn"><i class="fa fa-filter"></i></button>
+
+              <div class="button-group float-right">
+                  <button class="btn"><i class="fa fa-shopping-cart"></i></button>
+                  <button class="btn"><i class="fa fa-bell-o" aria-hidden="true"></i></button>
+                  <button class="profile"><img src="./assets/img/christian-buehner-DItYlc26zVI-unsplash 1.png" alt=""></button>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>My Bag</h2>
+        <form action="">
+            <div class="row">
+                <div class="col-md-8 ">
+                    <div class="form-group form-check total">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Select all items (2 items selected)</label>
+                        <span class="float-right">delete</span>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <span><img src="./assets/img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" alt=""></span>
+                        <label class="form-check-label" for="exampleCheck1">Men's formal suit - Black</label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                        <span><img src="./assets/img/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" alt=""></span>
+                        <label class="form-check-label" for="exampleCheck1">Select all items (2 items selected)</label>
+                    </div>
+                </div>
+                <div class="summary col-md-4">
+                    <h3>Shopping Summary</h3>
+                    <p>Total Price <span class="float-right">$ 40</span></p>
+                    <button class="btn col-md-11">Buy</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: metropolis;
+    src: url(../font/metropolis/Metropolis-Regular.otf);
+  }
+  html {
+      font-family: metropolis;
+  }
+  
+  .navbar-brand{
+      font-family: metropolis;
+      font-weight: 700;
+      color: #DB3022;
+      vertical-align: middle;
+  }
+  
+  .navbar-brand img {
+      width: 31;
+      height: 44;
+  }
+  
+  .form-inline input {
+      border: 1px solid #8E8E93;
+      border-radius: 20px;
+      width: 507;
+  
+  }
+  
+  .form-inline button {
+      margin-left: -50px;
+      background-color: transparent;
+  }
+  
+  .collapse > button {
+      height: 15;
+      width: 16;
+      background: #FFFFFF;
+      border: 1px solid #8E8E93;
+      border-radius: 12px;
+  }
+  
+  .button-group  button{
+      margin-left: 10px;
+  }
+  
+  .button-group .btn {
+      background-color: white;
+  }
+
+.form-check{
+    padding-top: 10px;
+    height: 126px;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+
+.total{
+    padding-top: 10px;
+    height: 64px;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+
+.form-check img{
+    width: 103px;
+    height: 69px;
+}
+
+.summary {
+    height: 180px;
+    box-shadow: 0px 0px 8px rgba(115, 115, 115, 0.25);
+    border-radius: 4px;
+}
+
+.summary button {
+    border-radius: 25px;
+    background: #DB3022;
+}
