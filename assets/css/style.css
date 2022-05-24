@@ -25,7 +25,8 @@ html {
 .form-inline input {
     border: 1px solid #8E8E93;
     border-radius: 20px;
-    width: 507;
+    height: 40px;
+    z-index: -1;
 
 }
 
@@ -96,6 +97,13 @@ html {
 
 .ctg-1 {
     background-color: #CC0B04;
+}
+
+.card {
+    width: 208px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+    border-radius: 8px;
 }
 
 
